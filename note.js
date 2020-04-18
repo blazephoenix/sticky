@@ -1,15 +1,15 @@
 const notes = document.querySelector('#notes');
 const editor = document.querySelector('#editor');
-const idnewNote = document.querySelector('#newNote');
-const iddeleteNote = document.querySelector("#deleteNote");
+const idNewNote = document.querySelector('#newNote');
+const idDeleteNote = document.querySelector("#deleteNote");
 
 
 /**
  * Event Handlers
  */
 
-idnewNote.addEventListener("click", ()=>{newNote()});
-iddeleteNote.addEventListener("click", ()=>{deleteNote()});
+idNewNote.addEventListener("click", ()=>{newNote()});
+idDeleteNote.addEventListener("click", ()=>{deleteNote()});
 notes.addEventListener("change", ()=>{changeNote()});
 editor.addEventListener("keydown", ()=>{checkEmpty()});
 editor.addEventListener("keyup", ()=>{saveNote()});
