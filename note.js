@@ -20,7 +20,7 @@ editor.addEventListener("keyup", ()=>{saveNote()});
 function checkEmpty() {
     if (notes.length === 0) {
         const untitled = document.createElement('option');
-        untitled.innerText = 'untitled';
+        untitled.innerText = 'Untitled';
         notes.appendChild(untitled);
     }
 }

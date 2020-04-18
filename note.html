@@ -11,12 +11,12 @@
     <body>
         <div class="flex-container">
             <h1>Sticky</h1>
-            <div class="form-buttons">
-                <button id="newNote" class="new">New</button>
-                <select id="notes" ></select>
-                <button id="deleteNote" class="delete">Delete</button>
+            <div class="button-container">
+                <input type="image" src="./images/add.png" id="newNote" class="new"></input>
+                <select id="notes" class="notes"></select>
+                <input type="image" src="./images/delete.png" id="deleteNote" class="delete"></input>
+                <textarea id="editor" rows="20" cols="30" autofocus></textarea>
             </div>
-            <textarea id="editor" rows="15" cols="30" autofocus></textarea>
         </div>
         <script src="note.js"></script>
     </body>
